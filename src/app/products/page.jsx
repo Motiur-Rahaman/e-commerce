@@ -39,7 +39,7 @@ const Products = async () => {
           </tr>
         </thead>
         <tbody>
-          {products.map((el) => (
+          {products?.map((el) => (
             <tr key={el._id}>
               <td>
                 <Image
