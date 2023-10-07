@@ -1,0 +1,36 @@
+.container {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: -0px -0px 10px #ffffff;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  color: black;
+}
+
+.box input {
+  font-size: 1.4rem;
+  width: 500px;
+  padding: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+}
+.btn:hover {
+  cursor: pointer;
+  border-color: transparent;
+  background-color: rgb(185, 127, 255);
+}
